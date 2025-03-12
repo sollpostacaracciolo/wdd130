@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main {
+    margin: 1rem;
+    align-items: center;
+   
+  
+}
+
+.grid {
+    grid-column: 2/3;
+    grid-row: 2/3;  
+   
+
+
+}
+
+
+.logo-box {
+    text-align: left;
+}
+nav {
+  font-size: black;
+    padding: 10px;
+    display: flex;
+   
+}
+nav a{
+    font-size: black;
+    display: block;
+    padding: 10px;
+}
+
+
+
+/* aca puse0 rem  y el head lo q hizo fue pegarse al borde la pagina para q no haya espacio.  */
+h1 {
+    color: darkmagenta;
+    padding: 0rem;
+}
+
+
+/* aca haces una caja con adentro una imagen */
+
+img {
+    width : 150px;
+    height: auto;
+    border: 1px solid pink;
+    padding: 2px ;
+    box-shadow: 0 0 30px palevioletred;
+
+}
+
+p {
+    padding: 10px;
+}
+
+/* h2 es el de adentro del box de la imagen de argentina*/
+h2 {
+    color: rgb(51, 33, 27);
+}
+/*navegadores de templos favoritos mas separados del borde*/
+ul {
+    padding: 10px;
+}
+
+/*asi pones el texto en como una caja*/
+main {
+    max-width: 640px;
+}
+
+/*imagenes a la derecha*/
+.img1 {
+  
+    margin: 0 0 1rem 1rem;
+    width: 207px;
+    height: auto;
+    border: 1px solid  steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    
+}
+ 
+.box {
+    width: 20rem;
+  
+    position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+aside img {
+    width: 200px;
+    height: auto ;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;
+    left: 139px;
+
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+
+/* lo q separo la caja de templos de la foto q estaba pegado antes.*/
+p {
+    margin: 1rem;
+}
+
+/*Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0,.1);
+    padding: 1rem;
+    background-color: rgb(255, 192, 239);
+    color: black;
+}
+
+ .indent {
+    padding-left: 2rem;
+ }
