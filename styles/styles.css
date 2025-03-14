@@ -54,7 +54,7 @@ nav a{
 
 /* aca haces una caja con adentro una imagen */
 
-img {
+main img {
     width : 150px;
     height: auto;
     border: 1px solid pink;
@@ -130,7 +130,7 @@ p {
     padding: 1rem;
     background-color: rgb(255, 192, 239);
     color: black;
-    height: 400px;
+    height: auto;
     text-align: center;
 }
 
