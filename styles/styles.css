@@ -25,11 +25,12 @@ body {
 }
 
 
+
 .logo-box {
     text-align: left;
 }
-nav {
-  font-size: black;
+ul {
+  font-size: rgb(100, 9, 100);
     padding: 10px;
     display: flex;
    
@@ -43,7 +44,7 @@ nav a{
 
 
 /* aca puse0 rem  y el head lo q hizo fue pegarse al borde la pagina para q no haya espacio.  */
-h1 {
+.grid {
     color: darkmagenta;
     padding: 0rem;
 }
@@ -127,6 +128,8 @@ p {
     padding: 1rem;
     background-color: rgb(255, 192, 239);
     color: black;
+    height: 400px;
+    text-align: center;
 }
 
  .indent {
