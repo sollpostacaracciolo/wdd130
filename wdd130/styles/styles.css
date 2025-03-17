@@ -41,6 +41,7 @@ nav a{
     color: black;
     display: block;
     padding: 10px;
+    background-color: #c43eb8;
 }
 
 
@@ -70,6 +71,7 @@ p {
 /* h2 es el de adentro del box de la imagen de argentina*/
 h2 {
     color: rgb(51, 33, 27);
+
 }
 /*navegadores de templos favoritos mas separados del borde*/
 ul {
@@ -137,3 +139,14 @@ p {
  .indent {
     padding-left: 2rem;
  }
+
+
+ aside {
+    background-color: #c43eb8; /* Light gray background */
+    color: blueviolet;
+    width: 20em;
+    margin: 1em;
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    text-align: center;
+}
