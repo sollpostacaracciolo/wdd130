@@ -1,6 +1,97 @@
-.para {
-    text-align: left;
-    margin: auto;
-  justify-content: left;
-  font-size: 40px;
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+ 
+  padding: 0px;
+
+
+}
+ nav {
+     background-color: #464343;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 10px;
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+
+ }
+
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow:  0 0 30px rgb(146, 144, 145);
+  margin: 1em;
+}
+
+.p {
+  padding: 1em;
+  margin: 1em;
+}
+
+ aside {
+    background-color: #c47eb8;  /* Light grey background for better contrast */
+    padding: 1em;
+    border: 1px solid #b99292;   /* Light border to visually separate it */
+    border-radius: 8px;        /* Rounded corners for aesthetic appeal */
+    box-shadow: 0 4px 8px rgba(199, 68, 188, 0.1);  /* Subtle shadow for depth */
+    margin: 1em;
+    width: 20em;
+    height: auto;
+  
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  margin: 1em;
+  text-align: center;
+}
+
+aside h2 {
+  text-align: center;
+  margin: 1em;
+}
+
+footer {
+  margin-top: 1em;
+  border-top: 1px solid black;
+  text-align:  center;
+
+}
+
+
+/*asi pones el texto en como una caja*/
+main {
+    max-width: 640px;
+    margin: 1em;
+}
+
+
+.main p  {
+  text-align: center;
+  padding: 9em;
 }
