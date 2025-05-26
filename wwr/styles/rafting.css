@@ -369,3 +369,15 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
+
+.home {
+
+    align-items: center;
+    color: var(--Accent-2);
+    justify-content: center;
+  
+    display: grid;
+    grid-column: 8/5;
+   
+}
