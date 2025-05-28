@@ -110,7 +110,7 @@ header {
 
 main {
     background-color: var(--secondary-color);
-    padding: auto;
+   
     height: auto;
     position: relative;
     gap: 0;
@@ -127,7 +127,7 @@ main {
 
 footer {
     background-color: var(--Accent-2);
-    padding: auto;
+  
     height: 20vh;
     
 }
@@ -352,7 +352,7 @@ article h2 {
 
 .footer1{
     background-color: #2b4f79;
-    padding: px;
+   
     margin-top: 6000px;
     display: flex;
     justify-content: space-around;
