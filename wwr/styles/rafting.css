@@ -2,12 +2,24 @@
      --secondary-color:  #B4CDE4; 
      --primary-color :  #264969;
      --Accent-1 : #CFCFB4;
-     --Accent-2 : #505033;
+     --Accent-2 : #2a5836;
+     --Accent-3 : #e8edeb;
      --heading-font: "Noto Sans Georgian", sans-serif;
      --body-font: "Lato", sans-serif;
+
+     
+    
+    
+    
      
 }
 
+* {
+    margin: 20px;
+    padding: 0;
+    ;
+    box-sizing: border-box;
+}
 
 
 .nav a {
@@ -77,13 +89,6 @@ h1 , h1 , h3 .h4 h5 , h6 {
 }
 
 
-* {
-    margin: 20px;
-    padding: 0;
-    ;
-    box-sizing: border-box;
-}
-
 .contenedor {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -99,7 +104,7 @@ header {
     background-color: var(--primary-color);
   
     margin: 0;
-    
+    justify-content: space-around;
 
    
    
@@ -109,7 +114,7 @@ header {
 }
 
 main {
-    background-color: var(--secondary-color);
+    background-color: var(--Accent-3);
    
     height: auto;
     position: relative;
@@ -153,6 +158,8 @@ footer {
 
   background-color: rgba(37, 70, 129, 0.438);
    text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 200;
 
   
  
@@ -193,8 +200,8 @@ article {
 article p {
     flex: 2; /* Toma 2 partes del espacio disponible */
   min-width: 300px;
-  font-size: 100px;
-  font-family: var(--body-font);
+  font-size: 80px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--Accent-1);
 }
 
@@ -216,25 +223,16 @@ article p {
   
 }
 
-.history h2  {
-  
-    text-align: center;
-    font-family: var(--body-font);
-    font-size: 80px;
-    font-family: var(--heading-font);
-
-}
-
-.history p {
-    font-size: 80px;
-    font-family: var(--body-font);
-    text-align: left;
-}
 
 
 .adventure h2 {
     text-align: center;
     font-family: var(--heading-font);
+    top: 20%;
+    left: 600px;
+    margin-right: 50%;
+    
+
 }
 
 .adventure {
@@ -250,6 +248,8 @@ article p {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
         font-family: var(--heading-font);
         font-size: 40px;
+        margin-top: 560px;
+        justify-content: space-around;
     }
 
 
@@ -319,7 +319,7 @@ footer{
 
 }
 footer a{
-   
+  
     text-decoration: none;
     color: var(--Accent-1);
 }
@@ -329,7 +329,7 @@ footer a:hover{
 }
 footer p{
     font-size: 70px;
-    color: var(--Accent-1);
+    color: var(--Accent-3);
 }
 footer p a:hover{
     text-decoration: underline;
@@ -365,7 +365,7 @@ article h2 {
 
 }
 footer a{
-    color: #00241B;
+    color: var(--Accent-3);
     text-decoration: none;
 }
 footer a:hover{
@@ -387,5 +387,90 @@ footer p a:hover{
   
     display: grid;
     grid-column: 8/5;
+    font-size: 5vh;
+    margin-right: 50px;
+    
    
+   
+}
+
+
+.history h2  {
+  
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 80px;
+    font-family: var(--heading-font);
+
+}
+
+.history p {
+    font-size: 60px;
+    font-family: var(--body-font);
+    grid-template-rows: 2/4;
+    
+    width: 800px;
+    text-align: left;
+    top: 20px;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+.history {
+   
+    grid-column: 2/10;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin: 2;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: center;
+    gap: 1em;
+    margin-right: 20%;
+    background-color: var(--Accent-2);
+    margin-left: 20%;
+    border-radius: 1%;
+   
+   
+ 
+  
+
+    
+}
+
+
+.right {
+    font-size: 10px;
+  
+    
+    font-family: var(--body-font);
+    color: var(--Accent-1);
+}
+
+
+
+.left {
+      color: var(--Accent-1);
+      font-family: var(--body-font);
+     
+}
+
+
+.img h2 {
+    color: var(--Accent-1);
+}
+
+
+main section 
+img {
+    border-radius: 10%;
 }
