@@ -250,6 +250,8 @@ article p {
         font-size: 40px;
         margin-top: 560px;
         justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 
@@ -407,7 +409,7 @@ footer p a:hover{
 .history p {
     font-size: 60px;
     font-family: var(--body-font);
-    grid-template-rows: 2/4;
+   
     
     width: 800px;
     text-align: left;
@@ -430,12 +432,11 @@ footer p a:hover{
     display: flex;
     justify-content: center;
     margin-top: 10%;
-    margin: 2;
     overflow-y: hidden;
     overflow-x: hidden;
     text-align: center;
     gap: 1em;
-    margin-right: 20%;
+    margin-right: 23%;
     background-color: var(--Accent-2);
     margin-left: 20%;
     border-radius: 1%;
