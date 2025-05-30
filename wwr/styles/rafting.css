@@ -340,4 +340,17 @@ article h2 {
   font-size: 90px;
   margin-left: 10%;
 
+
+}
+
+
+.hero h2 {
+  color: var(--accent-3);
+  font-size: 90px;
+  background-color: rgba(37, 70, 129, 0.438);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+
+
 }
