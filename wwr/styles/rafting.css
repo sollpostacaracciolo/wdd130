@@ -129,6 +129,7 @@ footer p {
   min-height: 100vh;
   align-items: center;
   padding-top: 200px;
+
 }
 
 .hero h1 {
@@ -140,23 +141,57 @@ footer p {
   font-weight: 200;
 }
 
-article {
+.article  {
   background-color: rgba(23, 73, 124, 0.397);
-  padding: 2rem;
-  border-radius: 10px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 2rem;
+    /* padding: 2rem; */
+    /* border-radius: 10px; */
+    display: flex
+;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5rem;
 }
 
-.article img {
+
+.pic {
   flex: 1;
-  min-width: 200px;
-  height: 150px;
+  min-width: 600px;
+  height: 1000px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 8em;
   margin: 60px;
+}
+
+article p {
+  flex: 2;
+  min-width: 300px;
+  font-size: 80px;
+  font-family: var(--body-font);
+  color: var(--accent-1);
+  margin: 70px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  z-index: 1;
+}
+
+
+.article img {
+  flex: 1;
+  min-width: 100px;
+  width: 200px;
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8em;
+  margin: 60px;
+  
 }
 
 article p {
@@ -193,7 +228,7 @@ article p {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   font-family: var(--heading-font);
-  font-size: 40px;
+  font-size: 80px;
   margin: auto;
   justify-content: space-around;
   text-align: center;
@@ -221,8 +256,8 @@ article p {
 
 .card-img {
   border: 10px solid #00241B;
-  width: 500px;
-  height: 390px;
+  width: 600px;
+  height: 590px;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px #3D0024;
   text-align: center;
@@ -354,4 +389,125 @@ article h2 {
   
 
 
+}
+
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 1900px;
+    /* Form outline */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 2%;
+    display: block;
+    font-size: 60px;
+     background-color: rgba(255, 255, 255, 0.8);
+     font-family: var(--heading-font);
+     
+     
+
+
+     
+   }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+        justify-content: space-around;
+
+  }
+  
+  form li + li {
+    margin-top: 1em;
+     justify-content: space-around;
+     
+
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 190px;
+    text-align: right;
+     text-shadow: 1px 1px 3px white;
+      margin-bottom: 6px;
+       font-size: 48px;
+  }
+
+  input, textarea {
+    font: 1em sans-serif;
+    width: 1000px;
+    height: 190px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    
+  }
+
+
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em; 
+    font-size: 60px;
+  }
+
+  .map {
+    max-width: 100%;
+  }
+
+
+.container  {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+    gap: 1em;
+    margin-right: 20%;
+    background-color:#2b4f79;
+    margin-left: 14%;
+    border-radius: 1%;
+    padding: 70px;
+    gap: 9em;
+    margin-bottom: 100px;
+ 
+  
+  }
+
+
+  /*wireframe */
+
+  
+
+
+.container {
+  justify-items: center;
+  height: auto;
+  
+}
+
+
+main img {
+    box-sizing: border-box;
+    border-radius: 10%;
+    height: 1600px;
+    width: 1520px;
+}
+
+.siteplan {
+   justify-items: center;
+  height: auto;
+  color: #ccc;
+  font-size: 50px;
+  
 }
