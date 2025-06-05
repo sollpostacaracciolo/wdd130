@@ -497,7 +497,7 @@ form {
 }
 
 
-main img {
+.wireframepic {
     box-sizing: border-box;
     border-radius: 10%;
     height: 1600px;
@@ -510,4 +510,15 @@ main img {
   color: #ccc;
   font-size: 50px;
   
+}
+
+.find {
+  text-align: center;
+      grid-column: 4 / 8;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 120px;
+    margin-top: 8%;
+    margin-right: 6%;
 }
