@@ -490,7 +490,7 @@ form {
   
 
 
-.container {
+.container2 {
   justify-items: center;
   height: auto;
   
@@ -519,6 +519,8 @@ form {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 200;
     font-size: 120px;
-    margin-top: 8%;
+    margin-top: 6%;
     margin-right: 6%;
-}
+    font-weight: bold;
+    color: #00241B;
+  }
