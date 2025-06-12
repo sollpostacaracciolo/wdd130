@@ -733,3 +733,272 @@ main section img {
     background-color: #DCF8E1;
     color: #99055b;
 }
+
+
+/* Trips Page */
+
+.bold{
+    font-weight: 1000;
+}
+.river{
+    text-align: center;
+
+    color: #3D0024;
+
+    margin-bottom: 20%
+}
+.info_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 6em 60em 30em 200px 40em 32em 30em 200px 80em 600px
+ 20em 1em 200px 6em 20em 5em;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+.three_gc_img{
+    grid-column: 2/6;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 40px;
+}
+
+.three_grand_canyon_trip_dates{
+    grid-column: 5/9;
+    grid-row: 2/3;
+    line-height: .1em;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    background-color: #DCF8E1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+   
+}
+
+.three_grand_canyon_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+    font-size: 3em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.three_grand_canyon_trip_dates p{
+    padding-left: 3%;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+
+.six_gc_img{
+    grid-column: 2/6;
+    grid-row: 5/8;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 40px;
+}
+
+.six_grand_canyon_trip_dates{
+    grid-column: 5/9;
+    grid-row: 6/7;
+    line-height: 1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #DCF8E1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+    height: 600px;
+    font-size: 3em;
+}
+
+.six_grand_canyon_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+    font-size: 1em;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+.six_grand_canyon_trip_dates p{
+    padding-left: 3%;
+    font-size: 1em;
+}
+
+.sr_img{
+    grid-column: 2/6;
+    grid-row: 9/12;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 40px;
+}
+.salmon_river_trip_dates{
+    grid-column: 5/9;
+    grid-row: 10/11;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #DCF8E1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.salmon_river_trip_dates h2{
+    padding: 10px;
+    padding-left: 3px;
+
+    margin-top: 2%;
+    margin-bottom: 6%;
+    font-size: 3em;
+}
+
+.salmon_river_trip_dates p{
+    padding-left: 3%;
+        font-size : 3em;
+    line-height: 3em;
+}
+
+.deso_img{
+    grid-column: 2/6;
+    grid-row: 13/16;
+    width: 100%;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 40px;
+}
+.desolation_trip_dates{
+    grid-column: 5/9;
+    grid-row: 14/15;
+    line-height: .1em;
+    justify-content: center;
+    align-content: center;
+    background-color: #DCF8E1;
+    box-shadow: 5px 5px 10px #3D0024;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.desolation_trip_dates h2{
+    padding: 40px;
+    padding-left: 0;
+    font-size: 3em;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.desolation_trip_dates p{
+    padding-left: 3%;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+.gc_img{
+    width: 70%;
+    margin-left: 25%;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 100em;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+     width: 20em;
+     margin-top: 2%;
+}
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    margin-left: 30%;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
+.footer2 {
+  background-color: var(--primary-color);
+    padding: 90px;
+    margin-top: 1px;
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--heading-font);
+    position: relative;
+    margin-top: 20%;
+}
+
+.river2 {
+ text-align: center;
+    color: #3D0024;
+    margin-bottom: 20%;
+    font-size: 5em;
+    margin-top: 5%;
+}
